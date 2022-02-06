@@ -1,0 +1,44 @@
+/* custom css */
+.navbar .container{
+    width: 90% !important;
+    margin: 0 auto;
+    max-width: 1400px;
+
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* position: absolute; */
+    background: rgba(3, 3, 3, 0.507);
+ 
+}
+.carousel-caption{
+    margin-bottom: 250px !important;
+}
+.carousel-item img{
+    height: 80vh;
+}
+.carousel-item h5{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.card-header span{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.alart-h{
+    font-size: 22px;
+}
+.s-img img{
+        max-width: 100%;
+        height: 235px;
+}
+
